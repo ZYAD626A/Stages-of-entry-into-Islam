@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>رحلتي لتعلم الإسلام</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="hero">
+      <div>
+        <p class="eyebrow">Islam Learning Roadmap</p>
+        <h1>رحلتي لتعلم الإسلام</h1>
+        <p class="subtitle">
+          منهج من الصفر إلى مستوى قوي في العقيدة والقرآن والسنة والسيرة والفقه،
+          ثم دراسة الشبهات والأديان الأخرى.
+        </p>
+      </div>
+      <button id="resetBtn" class="ghost-btn">إعادة ضبط التقدم</button>
+    </header>
+
+    <section class="stats">
+      <div class="stat-card">
+        <span>المراحل</span>
+        <strong id="stageCount">0</strong>
+      </div>
+      <div class="stat-card">
+        <span>إجمالي الدروس</span>
+        <strong id="lessonCount">0</strong>
+      </div>
+      <div class="stat-card">
+        <span>أنجزت</span>
+        <strong id="doneCount">0</strong>
+      </div>
+      <div class="stat-card">
+        <span>التقدم</span>
+        <strong id="progressText">0%</strong>
+      </div>
+    </section>
+
+    <section class="progress-wrap">
+      <div class="progress-header">
+        <h2>التقدم العام</h2>
+        <span id="progressLabel">0 / 0</span>
+      </div>
+      <div class="progress-bar">
+        <div id="progressFill"></div>
+      </div>
+    </section>
+
+    <main id="roadmap"></main>
+
+    <section class="notes">
+      <h2>قواعد الرحلة</h2>
+      <div class="note-grid">
+        <div>لا تبدأ بالشبهات قبل بناء الأساس.</div>
+        <div>القرآن مع تفسير موثوق، وليس مقاطع قصيرة فقط.</div>
+        <div>لا تأخذ حديثًا منفصلًا عن سياقه وشرحه.</div>
+        <div>الهدف فهم الحق، وليس "كسب النقاش".</div>
+        <div>ساعة يوميًا أفضل من 8 ساعات ثم انقطاع أسبوع.</div>
+        <div>لو لم تعرف جوابًا: قل "لا أعرف بعد" ثم ابحث.</div>
+      </div>
+    </section>
+
+    <footer>
+      <p>يُحفظ تقدمك تلقائيًا على هذا الجهاز.</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
